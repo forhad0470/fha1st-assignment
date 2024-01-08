@@ -144,7 +144,44 @@
   color: #fff;
   background-color: rgb(2, 148, 58);
   border-radius: 3px;
-  
 }
 
 /* show time section end */
+/* offer section start */
+.offer {
+  display: flex;
+  justify-content: center;
+  margin: 120px 140px;
+  align-items: center;
+}
+.offer-content {
+  width: 450px;
+}
+.offer-image {
+  width: 325px;
+  margin: 0 100px 0 70px;
+}
+.offer-primary-content {
+  width: 450px;
+}
+.offer-text {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px auto 18px 0;
+}
+.offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+/* offer section end */
